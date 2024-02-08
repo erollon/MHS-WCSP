@@ -1,8 +1,10 @@
 # MHS-WCSP
 
+
+
 ## How to execute:
 
-See `mhs_wcsp -h` for a description of the options.
+See `mhs_wcsp -h` for a full description on options.
 
 To reproduce the results in our AAAI'24 paper, use the following command lines:
 
