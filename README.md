@@ -6,7 +6,7 @@ It is only intended to be a proof of concept. Therefore, there is full room for 
 
 ## How to compile:
 
-Our implementation uses CaDiCal as SAT solver and CPLEX as IP solver. These two solvers have to be installed before compiling our code. Edit the Makefile and adjust paths referring to them.
+Our implementation uses CaDiCal as SAT solver and CPLEX as IP solver. These two solvers have to be installed before compiling our code. Then, edit the Makefile and adjust paths referring to them.
 
 ## How to execute:
 
