@@ -21,10 +21,7 @@ To reproduce the results in our AAAI'24 paper, use the following command lines:
 
 ### Experiments on wcsp instances:
 
-1. original encoding:
-`./mhs_wcsp -f instance.wcsp`
-
-(Note: you may obtain slightly different results due to some polishing in this version)
+1. original encoding: `./mhs_wcsp -f instance.wcsp` (Note: you may obtain slightly different results from the ones published due to some code polishing)
 
 3. symbolic encoding on clusters from tree-decomposition:
 `./mhs_wcsp -f instance.wcsp -p instance.wcsp.td.l2r -ac`
