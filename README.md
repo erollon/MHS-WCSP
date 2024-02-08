@@ -1,6 +1,12 @@
 # MHS-WCSP
 
+This is the source code for the "Theoretical and Empirical Analysis of Cost-Function Merging for Implicit Hitting Set WCSP Solving", AAAI'24. 
 
+It is only intended to be a proof of concept. Therefore, there is full room for improvement either on the structure and on the efficiency of the implementation.
+
+## How to compile:
+
+Our implementation uses CaDiCal as SAT solver and CPLEX as IP solver. These two solvers have to be installed before compiling our code. Edit the Makefile and adjust paths referring to them.
 
 ## How to execute:
 
