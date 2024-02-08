@@ -20,11 +20,11 @@ To reproduce the results in our AAAI'24 paper, use the following command lines:
    
 `./mhs_wcsp -g num_vars type -t 4`
 
-3. symbolic encoding:
+2. symbolic encoding:
    
 `./mhs_wcsp -g num_vars type -ac -t 4`
 
-5. numerical encoding:
+3. numerical encoding:
    
 `./mhs_wcsp -g num_vars type -p all -t 4`
 
@@ -36,11 +36,11 @@ To reproduce the results in our AAAI'24 paper, use the following command lines:
 
 (Note: you may obtain slightly different results from the ones published due to some code polishing)
 
-3. symbolic encoding on clusters from tree-decomposition:
+2. symbolic encoding on clusters from tree-decomposition:
 
 `./mhs_wcsp -f instance.wcsp -p instance.wcsp.td.l2r -ac`
 
-4. numeric encoding on clusters from tree-decomposition:
+3. numeric encoding on clusters from tree-decomposition:
 
 `./mhs_wcsp -f instance.wcsp -p instance.wcsp.td.l2r`
 
