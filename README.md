@@ -2,7 +2,7 @@
 
 This is the source code for the experiments in our "Theoretical and Empirical Analysis of Cost-Function Merging for Implicit Hitting Set WCSP Solving" (AAAI'24) paper. 
 
-It is only intended to be a proof of concept. There is full room for improvement either on the structure and on the efficiency of the implementation.
+It is only intended to be a proof of concept. There is plenty of room for improvement either on the structure and on the efficiency of the implementation.
 
 ## How to compile:
 
