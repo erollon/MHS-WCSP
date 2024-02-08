@@ -28,12 +28,8 @@ To reproduce the results in our AAAI'24 paper, use the following command lines:
 
 (Note: you may obtain slightly different results from the ones published due to some code polishing)
 
-2. symbolic encoding on clusters from tree-decomposition:
+2. symbolic encoding on clusters from tree-decomposition: `./mhs_wcsp -f instance.wcsp -p instance.wcsp.td.l2r -ac`
 
-`./mhs_wcsp -f instance.wcsp -p instance.wcsp.td.l2r -ac`
-
-3. numeric encoding on clusters from tree-decomposition:
-
-`./mhs_wcsp -f instance.wcsp -p instance.wcsp.td.l2r`
+3. numeric encoding on clusters from tree-decomposition: `./mhs_wcsp -f instance.wcsp -p instance.wcsp.td.l2r`
 
 
