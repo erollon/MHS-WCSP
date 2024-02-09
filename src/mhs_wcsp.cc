@@ -70,12 +70,6 @@ void printHelp(string p) {
     cout << "\t\t\t n : int (number of variables)" << endl;
     cout << "\t\t\t type : int (= 0: all diferent; = 1: greater than)" << endl;
     cout << "\t\t -t number: hs-min = 1, hs-lazy = 2, hs-greedy = 3 (default), hs-max = 4" << endl;
-
-    cout << "AAAI 24:" << endl;
-    cout << "./main -g n TYPE [-p none] --> modelo original, bacchus" << endl;
-    cout << "./main -g n TYPE [-p none] -ac --> symbolic merging of all functions (abstract cores en donde peso w se considera en todas las funciones)" << endl;
-    cout << "./main -g n TYPE -p all --> numerical merging of all functions" << endl;
-    cout << "    con la opcion -t se elige la forma en que se mejora el core" << endl;
 }
 
 int main(int argc, char const *argv[]) {
